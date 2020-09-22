@@ -8,11 +8,23 @@ export default function Home() {
         <div>
             <div className="homeOuter">
                 <div className="header">
-                    <div className="title">
-                        dexstats.io
+                    <div className="headerCenter">
+                        <div className="title">
+                            dexstats.io
+                    </div>
                     </div>
                 </div>
                 <div className="exchanges">
+                    <div className="exchange">
+                    </div>
+                    <div className="exchange">
+                    </div>
+                    <div className="exchange">
+                    </div>
+                    <div className="exchange">
+                    </div>
+                    <div className="exchange">
+                    </div>
                     <div className="exchange">
                     </div>
                     <div className="exchange">
