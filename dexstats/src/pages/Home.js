@@ -15,7 +15,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="exchanges">
-                    <div className="exchange">
+                    <div id="one" className="exchange">
                     </div>
                     <div className="exchange">
                     </div>
