@@ -22,6 +22,22 @@
     background-color: white;
 }
 
+.headerCenter {
+    width: 800px;
+}
+
+.title {
+    margin-top: 8px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+}
+
+.title:hover {
+    cursor: default;
+}
+
 .volumeTotal {
     position: fixed;
     top: 40px;
@@ -29,6 +45,16 @@
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
 }
+
+.volumeTotal:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+/* .volumeTotal:active {
+    color: blue;
+} */
+
 
 .vol {
     font-family: 'Kumbh Sans', sans-serif;
@@ -44,23 +70,17 @@
     font-weight: 400;
 }
 
+.liquidityTotal:hover {
+    cursor: pointer;
+    color: blue;
+}
+
 .liq {
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
 }
 
-.headerCenter {
-    width: 800px;
-}
-
-.title {
-    margin-top: 10px;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-size: 40px;
-    color: black;
-    font-weight: 700;
-}
 
 .exchanges {
     width: 900px;
