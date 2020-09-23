@@ -48,7 +48,7 @@
 
 .volumeTotal:hover {
     cursor: pointer;
-    color: blue;
+    color: red;
 }
 
 /* .volumeTotal:active {
@@ -72,7 +72,7 @@
 
 .liquidityTotal:hover {
     cursor: pointer;
-    color: blue;
+    color: red;
 }
 
 .liq {
@@ -80,7 +80,6 @@
     font-weight: 400;
     font-size: 20px;
 }
-
 
 .exchanges {
     width: 900px;
@@ -98,6 +97,8 @@
     background-color: #FFFFFF;
     border-radius: 12px;
     box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
 }
 
 .exchange:hover {
@@ -109,7 +110,30 @@
     box-shadow: none;
 }
 
-
 #one {
     margin-top: 20px;
+}
+
+.icon {
+    border-radius: 50%;
+}
+
+#uniswapIcon {
+    width: 80px;
+    margin-left: 10px;
+}
+
+#kyberIcon {
+    width: 60px;
+    margin-left: 20px;
+}
+
+#zrxIcon {
+    width: 50px;
+    margin-left: 25px;
+}
+
+#bancorIcon {
+    width: 52px;
+    margin-left: 25px;
 }
