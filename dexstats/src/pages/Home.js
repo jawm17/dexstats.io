@@ -11,7 +11,22 @@ export default function Home() {
                     <div className="headerCenter">
                         <div className="title">
                             dexstats.io
-                    </div>
+                        </div>
+                        <div className="slogan">
+                            Decentralized exchange statistics
+                        </div>
+                        <div className="volumeTotal">
+                            24hr volume
+                            <div className="vol">
+                                $455,332,091
+                            </div>
+                        </div>
+                        <div className="liquidityTotal">
+                            Total liquidity
+                            <div className="liq">
+                                $2.8 B
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="exchanges">

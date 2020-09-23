@@ -22,14 +22,44 @@
     background-color: white;
 }
 
+.volumeTotal {
+    position: fixed;
+    top: 40px;
+    right: calc((100vw - 400px) / 2); 
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+.vol {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.liquidityTotal {
+    position: fixed;
+    top: 40px;
+    right: calc((100vw - 740px) / 2); 
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+.liq {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .headerCenter {
     width: 800px;
 }
 
 .title {
+    margin-top: 10px;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 40px;
     color: black;
+    font-weight: 700;
 }
 
 .exchanges {
