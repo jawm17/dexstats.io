@@ -5,8 +5,7 @@
 
 .homeOuter {
     width: 100vw;
-    height: 100vh;
-    position: fixed;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     background-color: #f5f5f5;
@@ -57,7 +56,7 @@
 .liquidityTotal {
     position: fixed;
     top: 45px;
-    right: calc((100vw - 860px) / 2); 
+    right: calc((100vw - 855px) / 2); 
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
 }
@@ -98,18 +97,13 @@
 /* ECHANGE INFO ------------------------------------------------------------------------------------------------------------- */
 
 .exchanges {
-    width: 1000px;
-    position: fixed;
-    top: 120px;
-    height: calc(100vh - 120px);
-    overflow-y: scroll;
+    margin-top: 120px;
 }
 
 .exchange {
     width: 900px;
     height: 120px;
     margin-bottom: 40px;
-    margin-left: 50px;
     background-color: #FFFFFF;
     border-radius: 12px;
     display: flex;
@@ -214,11 +208,10 @@
 }
 
 .footer {
-    width: 650px;
+    width: 900px;
     height: 50px;
     display: flex;
-    justify-content: space-between;
-    margin-left: 170px;
+    justify-content: space-around;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
 }

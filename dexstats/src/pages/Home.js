@@ -40,7 +40,6 @@ export default function Home() {
                             Uniswap
                         </div>
                         <div id="volume1" className="volume">
-                
                             <p className="amount">$332,000,000</p>
                         </div>
                         <div id="liquidity1" className="liquidity">
