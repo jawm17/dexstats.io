@@ -67,9 +67,19 @@
     color: grey;
 }
 
+.volumeTotal:active {
+    cursor: pointer;
+    color: black;
+}
+
 .liquidityTotal:hover {
     cursor: pointer;
     color: grey;
+}
+
+.liquidityTotal:active {
+    cursor: pointer;
+    color: black;
 }
 
 .vol {
@@ -109,6 +119,12 @@
     font-weight: 400;
     font-size: 20px;
 }
+.exchange:hover #uniswapIcon {
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 0px;
+    transition: all 0.1s ease-in-out;
+}
 
 .exchange:hover {
     cursor: pointer;
@@ -140,9 +156,10 @@
 }
 
 #uniswapIcon {
-    width: 80px;
-    margin-left: 10px;
-    margin-right: 0px;
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 10px;
+    transition: all 0.1s ease-in-out;
 }
 
 #kyberIcon {

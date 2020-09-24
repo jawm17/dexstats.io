@@ -40,11 +40,11 @@ export default function Home() {
                             Uniswap
                         </div>
                         <div id="volume1" className="volume">
-                            24hr Volume
+                
                             <p className="amount">$332,000,000</p>
                         </div>
                         <div id="liquidity1" className="liquidity">
-                            Total Liquidity
+                    
                             <p className="amount">$1.92 B</p>
                         </div>
                     </div>
@@ -62,11 +62,11 @@ export default function Home() {
                             Kyber Network
                         </div>
                         <div id="volume2" className="volume">
-                            24hr Volume
+                   
                                 <p className="amount">$42,678,000</p>
                         </div>
                         <div id="liquidity2" className="liquidity">
-                            Total Liquidity
+                
                                 <p className="amount">$200 M</p>
                         </div>
                     </div>
@@ -83,11 +83,11 @@ export default function Home() {
                              0x Protocol
                         </div>
                         <div id="volume3" className="volume">
-                            24hr Volume
+                        
                                 <p className="amount">$332,000,000</p>
                         </div>
                         <div id="liquidity3" className="liquidity">
-                            Total Liquidity
+                      
                                 <p className="amount">$1.92 B</p>
                         </div>
                     </div>
@@ -102,11 +102,11 @@ export default function Home() {
                             bancor
                         </div>
                         <div id="volume4" className="volume">
-                            24hr Volume
+                   
                                 <p className="amount">$332,000,000</p>
                         </div>
                         <div id="liquidity4" className="liquidity">
-                            Total Liquidity
+                   
                                 <p className="amount">$1.92 B</p>
                         </div>
                     </div>
