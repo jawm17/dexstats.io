@@ -119,30 +119,56 @@
     box-shadow: none;
 }
 
-#one {
-    margin-top: 20px;
+.nameAndIcon {
+   float: left;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   width: 490px;
 }
 
 .icon {
     border-radius: 50%;
 }
 
+#one {
+    margin-top: 20px;
+}
+
 #uniswapIcon {
     width: 80px;
     margin-left: 10px;
+    margin-right: 0px;
 }
 
 #kyberIcon {
     width: 60px;
     margin-left: 20px;
+    margin-right: 9px;
 }
 
 #zrxIcon {
-    width: 50px;
-    margin-left: 25px;
+    width: 45px;
+    margin-left: 28px;
+    margin-right: 15px;
 }
 
 #bancorIcon {
-    width: 52px;
-    margin-left: 25px;
+    width: 50px;
+    margin-left: 26px;
+    margin-right: 15px;
+}
+
+.volume {
+    color: black;
+    font-size: 15px;
+}
+
+.liquidity {
+    margin-left: 60px;
+    font-size: 15px;
+}
+
+.amount {
+    font-size: 20px;
 }

@@ -31,10 +31,28 @@ export default function Home() {
                 </div>
                 <div className="exchanges">
                     <div id="one" className="exchange">
-                        <img id="uniswapIcon" className="icon" src="https://research.binance.com/static/images/projects/uniswap/logo.png" alt="uniswap icon"></img>
-                        Uniswap
+                        <div className="nameAndIcon">
+                            <img id="uniswapIcon" className="icon" src="https://research.binance.com/static/images/projects/uniswap/logo.png" alt="uniswap icon"></img>
+                            Uniswap
+                        </div>
+                            <div id="volume1" className="volume">
+                                24hr Volume
+                                <p className="amount">$332,000,000</p>
+                            </div>
+                            <div id="liquidity1" className="liquidity">
+                                Total Liquidity
+                                <p className="amount">$1.92 B</p>
+                            </div>
                     </div>
-                    <div className="exchange">
+
+
+
+
+
+
+
+
+                    <div id="two" className="exchange">
                         <img id="kyberIcon" className="icon" src="https://assets.coingecko.com/coins/images/947/large/kyber-logo.png?1547034806" alt="kyber icon"></img>
                         Kyber Network
                     </div>
