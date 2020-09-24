@@ -34,7 +34,7 @@ export default function Home() {
 
 
 
-                    <div id="one" className="exchange">
+                    <div id="one" className="exchange" onClick={() => (window.location.href = "/exchange/uniswap")}>
                         <div className="nameAndIcon">
                             <img id="uniswapIcon" className="icon" src="https://research.binance.com/static/images/projects/uniswap/logo.png" alt="uniswap icon"></img>
                             Uniswap
