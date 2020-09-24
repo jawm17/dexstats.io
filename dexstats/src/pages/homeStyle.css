@@ -26,7 +26,7 @@
 }
 
 .headerCenter {
-    width: 900px;
+    width: 850px;
 }
 
 .title {
@@ -49,7 +49,7 @@
 .volumeTotal {
     position: fixed;
     top: 45px;
-    right: calc((100vw - 545px) / 2); 
+    right: calc((100vw - 565px) / 2); 
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
 }
@@ -57,7 +57,7 @@
 .liquidityTotal {
     position: fixed;
     top: 45px;
-    right: calc((100vw - 835px) / 2); 
+    right: calc((100vw - 860px) / 2); 
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
 }
@@ -99,7 +99,7 @@
     width: 900px;
     height: 120px;
     margin-bottom: 40px;
-    margin-left: 40px;
+    margin-left: 50px;
     background-color: #FFFFFF;
     border-radius: 12px;
     box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2);
@@ -117,6 +117,10 @@
 
 .exchange:active {
     box-shadow: none;
+}
+
+#exchange1 {
+    margin-bottom: 60px;
 }
 
 .nameAndIcon {
@@ -190,4 +194,14 @@
 
 .amount {
     font-size: 20px;
+}
+
+.footer {
+    width: 650px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
 }

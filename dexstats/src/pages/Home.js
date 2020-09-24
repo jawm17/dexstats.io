@@ -116,13 +116,19 @@ export default function Home() {
 
 
 
-                    <div className="exchange">
+                    <div id="exchange1" className="exchange">
                     </div>
-                    <div className="exchange">
-                    </div>
-                    <div className="exchange">
-                    </div>
-                    <div className="exchange">
+
+                    <div className="footer">
+                        <a>
+                            terms
+                        </a>
+                        <a>
+                            copyright 2020
+                        </a>
+                        <a>
+                            API
+                        </a>
                     </div>
                 </div>
             </div>
