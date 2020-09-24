@@ -1,0 +1,24 @@
+{
+    "exchanges": [
+        {
+            "name": "Uniswap",
+            "logo": "https://research.binance.com/static/images/projects/uniswap/logo.png"
+        },
+        {
+            "name": "Kyber",
+            "logo": "https://assets.coingecko.com/coins/images/947/large/kyber-logo.png?1547034806"
+        },
+        {
+            "name": "0x",
+            "logo": "https://assets.coingecko.com/coins/images/863/large/0x.png?1547034672"
+        },
+        {
+            "name": "Bancor",
+            "logo": "https://www.worldcryptoindex.com/wp-content/uploads/2018/06/bancor-logo.jpg"
+        },
+        {
+            "name": "Curve",
+            "logo": "https://assets.coingecko.com/coins/images/12124/large/Curve.png?1597369484"
+        }
+    ]
+}
