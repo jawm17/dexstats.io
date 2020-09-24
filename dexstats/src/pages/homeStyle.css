@@ -26,7 +26,7 @@
 }
 
 .headerCenter {
-    width: 800px;
+    width: 900px;
 }
 
 .title {
@@ -48,16 +48,16 @@
 
 .volumeTotal {
     position: fixed;
-    top: 40px;
-    right: calc((100vw - 400px) / 2); 
+    top: 45px;
+    right: calc((100vw - 545px) / 2); 
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
 }
 
 .liquidityTotal {
     position: fixed;
-    top: 40px;
-    right: calc((100vw - 740px) / 2); 
+    top: 45px;
+    right: calc((100vw - 835px) / 2); 
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
 }
@@ -124,7 +124,7 @@
    height: 100%;
    display: flex;
    align-items: center;
-   width: 540px;
+   width: 610px;
 }
 
 .icon {
@@ -166,20 +166,20 @@
 }
 
 .liquidity {
-    margin-left: 60px;
+    margin-left: 40px;
     font-size: 15px;
 }
 
 #liquidity2 {
-    margin-left: 72px;
+    margin-left: 52px;
 }
 
 #liquidity3 {
-    margin-left: 62px;
+    margin-left: 42px;
 }
 
 #liquidity4 {
-    margin-left: 62px;
+    margin-left: 42px;
 }
 
 
