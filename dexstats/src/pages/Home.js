@@ -31,9 +31,6 @@ export default function Home() {
                 </div>
                 <div className="exchanges">
 
-
-
-
                     <div id="one" className="exchange" onClick={() => (window.location.href = "/exchange/uniswap")}>
                         <div className="nameAndIcon">
                             <img id="uniswapIcon" className="icon" src="https://research.binance.com/static/images/projects/uniswap/logo.png" alt="uniswap icon"></img>
@@ -43,89 +40,63 @@ export default function Home() {
                             <p className="amount">$332,000,000</p>
                         </div>
                         <div id="liquidity1" className="liquidity">
-                    
+
                             <p className="amount">$1.92 B</p>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-                    <div id="two" className="exchange">
+                    <div id="two" className="exchange" >
                         <div className="nameAndIcon">
                             <img id="kyberIcon" className="icon" src="https://assets.coingecko.com/coins/images/947/large/kyber-logo.png?1547034806" alt="kyber icon"></img>
                             Kyber Network
                         </div>
                         <div id="volume2" className="volume">
-                   
-                                <p className="amount">$42,678,000</p>
+
+                            <p className="amount">$42,678,000</p>
                         </div>
                         <div id="liquidity2" className="liquidity">
-                
-                                <p className="amount">$200 M</p>
+
+                            <p className="amount">$200 M</p>
                         </div>
                     </div>
-
-
-
-
-
-
-
                     <div className="exchange">
                         <div className="nameAndIcon">
                             <img id="zrxIcon" className="icon" src="https://assets.coingecko.com/coins/images/863/large/0x.png?1547034672" alt="zero x icon"></img>
                              0x Protocol
                         </div>
                         <div id="volume3" className="volume">
-                        
-                                <p className="amount">$332,000,000</p>
+
+                            <p className="amount">$332,000,000</p>
                         </div>
                         <div id="liquidity3" className="liquidity">
-                      
-                                <p className="amount">$1.92 B</p>
+
+                            <p className="amount">$1.92 B</p>
                         </div>
                     </div>
-
-
-
-
-
                     <div className="exchange">
                         <div className="nameAndIcon">
                             <img id="bancorIcon" className="icon" src="https://www.worldcryptoindex.com/wp-content/uploads/2018/06/bancor-logo.jpg" alt="bancor icon"></img>
                             bancor
                         </div>
                         <div id="volume4" className="volume">
-                   
-                                <p className="amount">$332,000,000</p>
+
+                            <p className="amount">$332,000,000</p>
                         </div>
                         <div id="liquidity4" className="liquidity">
-                   
-                                <p className="amount">$1.92 B</p>
+
+                            <p className="amount">$1.92 B</p>
                         </div>
                     </div>
-
-
-
-
-
-
-                    <div id="exchange1" className="exchange">
+                    <div id="exchange4" className="exchange" >
                     </div>
 
                     <div className="footer">
-                        <a>
+                        <a id="terms" className="footerEl" onClick={() => (window.location.href = "/terms")}>
                             terms
                         </a>
-                        <a>
+                        <a id="copyright" className="footerEl" onClick={() => (window.location.href = "/copyright")}>
                             copyright 2020
                         </a>
-                        <a>
+                        <a id="api" className="footerEl" onClick={() => (window.location.href = "/api")}>
                             API
                         </a>
                     </div>

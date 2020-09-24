@@ -8,7 +8,7 @@
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: #f5f5f5;
+    background-color: white;
 }
 
 
@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f5f5f5;
+    background-color: white;
 }
 
 .headerCenter {
@@ -111,6 +111,7 @@
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .exchange:hover {
@@ -129,8 +130,8 @@
     box-shadow: none;
 }
 
-#exchange1 {
-    margin-bottom: 60px;
+#exchange4 {
+    margin-bottom: 40px;
 }
 
 .nameAndIcon {
@@ -201,17 +202,27 @@
     margin-left: 42px;
 }
 
-
-
 .amount {
     font-size: 20px;
 }
 
+
+/* FOOTER ------------------------------------------------------------------------ */
+
 .footer {
-    width: 900px;
-    height: 50px;
+    margin-left: 22px;
+    width: 850px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.footerEl:hover {
+    cursor: pointer;
+}
+
+.footerEl:active {
+    margin-top: 5px;
 }
