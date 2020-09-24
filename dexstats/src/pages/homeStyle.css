@@ -9,7 +9,7 @@
     position: fixed;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: #f5f5f5;
 }
 
 
@@ -22,7 +22,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: #f5f5f5;
 }
 
 .headerCenter {
@@ -33,7 +33,7 @@
     margin-top: 8px;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 40px;
-    color: #FFDB00;
+    color: black;
     font-weight: 700;
 }
 
@@ -112,23 +112,23 @@
     margin-left: 50px;
     background-color: #FFFFFF;
     border-radius: 12px;
-    box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2);
     display: flex;
     align-items: center;
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
 }
+
+.exchange:hover {
+    cursor: pointer;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+}
+
 .exchange:hover #uniswapIcon {
     width: 80px;
     margin-left: 10px;
     margin-right: 0px;
     transition: all 0.1s ease-in-out;
-}
-
-.exchange:hover {
-    cursor: pointer;
-    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .exchange:active {
