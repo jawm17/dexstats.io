@@ -5,7 +5,7 @@ export default function ExchangePage() {
 
     return (
         <div>
-
+            Exchange fuck you
         </div>
     );
 }

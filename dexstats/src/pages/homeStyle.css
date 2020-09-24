@@ -162,12 +162,16 @@
 .volume {
     color: black;
     font-size: 15px;
-    color: green;
+    color: red;
 }
 
 .liquidity {
     margin-left: 40px;
     font-size: 15px;
+}
+
+#volume1 {
+    color: green;
 }
 
 #liquidity2 {
