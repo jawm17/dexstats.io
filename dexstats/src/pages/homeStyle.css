@@ -88,7 +88,7 @@
 /* ECHANGE INFO ------------------------------------------------------------------------------------------------------------- */
 
 .exchanges {
-    width: 900px;
+    width: 1000px;
     position: fixed;
     top: 120px;
     height: calc(100vh - 120px);
@@ -96,7 +96,7 @@
 }
 
 .exchange {
-    width: 800px;
+    width: 900px;
     height: 120px;
     margin-bottom: 40px;
     margin-left: 40px;
@@ -124,7 +124,7 @@
    height: 100%;
    display: flex;
    align-items: center;
-   width: 490px;
+   width: 540px;
 }
 
 .icon {
@@ -162,12 +162,27 @@
 .volume {
     color: black;
     font-size: 15px;
+    color: green;
 }
 
 .liquidity {
     margin-left: 60px;
     font-size: 15px;
 }
+
+#liquidity2 {
+    margin-left: 72px;
+}
+
+#liquidity3 {
+    margin-left: 62px;
+}
+
+#liquidity4 {
+    margin-left: 62px;
+}
+
+
 
 .amount {
     font-size: 20px;
