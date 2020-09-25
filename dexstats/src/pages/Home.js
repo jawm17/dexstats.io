@@ -48,7 +48,10 @@ export default function Home() {
                             copyright 2020
                         </a>
                         <a id="api" className="footerEl" onClick={() => (window.location.href = "/api")}>
-                            API
+                            api
+                        </a>
+                        <a id="newExchange" className="footerEl" onClick={() => (window.location.href = "/exchanges")}>
+                            list an exchange
                         </a>
                     </div>
                 </div>
