@@ -17,7 +17,7 @@ export default function ExchangePage(props) {
                 <div className="header">
                     <div className="headerCenter">
                         <div className="nameAndIcon">
-                            <img className="icon" src="https://research.binance.com/static/images/projects/uniswap/logo.png" alt="icon"></img>
+                            <img src="https://research.binance.com/static/images/projects/uniswap/logo.png" alt="icon"></img>
                             {name}
                         </div>
                         <div id="volume1" className="volume">

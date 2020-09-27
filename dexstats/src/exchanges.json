@@ -19,6 +19,10 @@
         {
             "name": "Curve",
             "logo": "https://assets.coingecko.com/coins/images/12124/large/Curve.png?1597369484"
+        },
+        {
+            "name": "Tokenlon",
+            "logo": "https://assets.coingecko.com/markets/images/516/large/Tokenlon_1_4x.png?1583380072"
         }
     ]
 }
