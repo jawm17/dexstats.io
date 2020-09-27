@@ -8,20 +8,30 @@
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: #f5f5f5;
 }
 
 
 /* HEDEAR ------------------------------------------------------------------------------------------------------------------- */
 
-.header {
+.largeHeader {
     position: fixed;
     width: 100%;
     height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: #f5f5f5;
+}
+
+.smallHeader {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
 }
 
 .headerCenter {

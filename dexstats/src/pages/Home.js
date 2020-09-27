@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ExchangeElement from "../components/ExchangeElement";
 import exchanges from "../exchanges.json";
 import "./homeStyle.css";
 
 export default function Home() {
+    const [header, setHeader] = useState("largeHeader");
+
+    useEffect(() => {
+        document.addEventListener("scroll", () => {
+            let name = window.scrollY < 10 ? "largeHeader" : "smallHeader";
+            setHeader(name);
+        });
+    },[]);
 
 
     return (
         <div>
             <div className="homeOuter">
-                <div className="header">
+                <div className={header}>
                     <div className="headerCenter">
                         <div className="title">
                             dexstats.io

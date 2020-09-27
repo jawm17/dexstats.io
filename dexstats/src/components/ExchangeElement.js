@@ -26,9 +26,11 @@ export default function ExchangeElement(props) {
                 {name}
             </div>
             <div id="volume2" className="volume">
+            24hr volume
                 <p className="amount">$420,678,000</p>
             </div>
             <div id="liquidity2" className="liquidity">
+            Total liquidity
                 <p className="amount">$200 M</p>
             </div>
         </div>
