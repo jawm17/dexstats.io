@@ -22,6 +22,7 @@
     align-items: center;
     justify-content: center;
     background-color: #f5f5f5;
+    transition: all 0.1s ease-in-out;
 }
 
 .smallHeader {
@@ -32,7 +33,22 @@
     align-items: center;
     justify-content: center;
     background-color: #f5f5f5;
+    transition: all 0.1s ease-in-out;
 }
+
+
+.smallHeader .volumeTotal{
+    position: fixed;
+    top: 35px;
+    transition: all 0.1s ease-in-out;
+}
+
+.smallHeader .liquidityTotal{
+    position: fixed;
+    top: 35px;
+    transition: all 0.1s ease-in-out;
+}
+
 
 .headerCenter {
     width: 850px;
@@ -57,18 +73,20 @@
 
 .volumeTotal {
     position: fixed;
-    top: 45px;
+    top: 50px;
     right: calc((100vw - 565px) / 2); 
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
+    transition: all 0.1s ease-in-out;
 }
 
 .liquidityTotal {
     position: fixed;
-    top: 45px;
+    top: 50px;
     right: calc((100vw - 855px) / 2); 
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
+    transition: all 0.1s ease-in-out;
 }
 
 .volumeTotal:hover {
@@ -100,119 +118,6 @@
 .liq {
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
-    font-size: 20px;
-}
-
-
-/* ECHANGE INFO ------------------------------------------------------------------------------------------------------------- */
-
-.exchanges {
-    margin-top: 120px;
-}
-
-.exchange {
-    width: 900px;
-    height: 120px;
-    margin-bottom: 40px;
-    background-color: #FFFFFF;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    font-family: 'Kumbh Sans', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.exchange:hover {
-    cursor: pointer;
-    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.exchange:hover #uniswapIcon {
-    width: 80px;
-    margin-left: 10px;
-    margin-right: 0px;
-    transition: all 0.1s ease-in-out;
-}
-
-.exchange:active {
-    box-shadow: none;
-}
-
-#exchange4 {
-    margin-bottom: 40px;
-}
-
-.nameAndIcon {
-   float: left;
-   height: 100%;
-   display: flex;
-   align-items: center;
-   width: 610px;
-}
-
-.icon {
-    border-radius: 50%;
-}
-
-#one {
-    margin-top: 20px;
-}
-
-#uniswapIcon {
-    width: 60px;
-    margin-left: 20px;
-    margin-right: 10px;
-    transition: all 0.1s ease-in-out;
-}
-
-#kyberIcon {
-    width: 60px;
-    margin-left: 20px;
-    margin-right: 9px;
-}
-
-#zrxIcon {
-    width: 45px;
-    margin-left: 28px;
-    margin-right: 15px;
-}
-
-#bancorIcon {
-    width: 50px;
-    margin-left: 26px;
-    margin-right: 15px;
-}
-
-.volume {
-    color: black;
-    font-size: 15px;
-    color: red;
-}
-
-.liquidity {
-    margin-left: 40px;
-    font-size: 15px;
-}
-
-#volume1 {
-    color: green;
-}
-
-#liquidity2 {
-    margin-left: 52px;
-}
-
-#liquidity3 {
-    margin-left: 42px;
-}
-
-#liquidity4 {
-    margin-left: 42px;
-}
-
-.amount {
     font-size: 20px;
 }
 

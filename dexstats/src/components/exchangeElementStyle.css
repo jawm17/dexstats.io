@@ -1,0 +1,135 @@
+.exchanges {
+    margin-top: 120px;
+}
+
+.exchange {
+    width: 900px;
+    height: 120px;
+    margin-bottom: 40px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    box-shadow: 0px 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.exchange:hover {
+    cursor: pointer;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.exchange:active {
+    box-shadow: none;
+}
+
+#exchange4 {
+    margin-bottom: 40px;
+}
+
+.nameAndIcon {
+   float: left;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   width: 610px;
+}
+
+.name {
+    margin-top: 5px;
+}
+
+.icon {
+    border-radius: 50%;
+}
+
+#one {
+    margin-top: 20px;
+}
+
+#Uniswap {
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 5px;
+    transition: all 0.1s ease-in-out;
+}
+
+.exchange:hover #Uniswap {
+    width: 70px;
+    margin-left: 15px;
+    margin-right: 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+#Kyber {
+    width: 45px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+.exchange:hover #Kyber {
+    width: 55px;
+    margin-left: 22px;
+    margin-right: 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+#zrx {
+    width: 45px;
+    margin-left: 28px;
+    margin-right: 15px;
+}
+
+.exchange:hover #zrx {
+    width: 50px;
+    margin-left: 25px;
+    margin-right: 15px;
+    transition: all 0.1s ease-in-out;
+}
+
+#Bancor {
+    width: 50px;
+    margin-left: 26px;
+    margin-right: 15px;
+}
+
+.exchange:hover #Bancor {
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: all 0.1s ease-in-out;
+}
+
+#Curve {
+    width: 50px;
+    margin-left: 26px;
+    margin-right: 15px;
+}
+
+.exchange:hover #Curve {
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 15px;
+    transition: all 0.1s ease-in-out;
+}
+
+.volume {
+    color: black;
+    font-size: 15px;
+    color: red;
+}
+
+.liquidity {
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+#volume1 {
+    color: green;
+}
+
+.amount {
+    font-size: 20px;
+}

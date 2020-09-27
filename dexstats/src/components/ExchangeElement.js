@@ -8,7 +8,7 @@ export default function ExchangeElement(props) {
     useEffect(() => {
         if(props.name === "Kyber") {
             setName("Kyber Network");
-        } else if(props.name === "0x") {
+        } else if(props.name === "zrx") {
             setName("0x Protocol");
         } else  {
             setName(props.name)
@@ -22,8 +22,10 @@ export default function ExchangeElement(props) {
     return (
         <div id="one" className="exchange" onClick={() => (window.location.href = "/exchange/" + props.name.toLowerCase())}>
             <div className="nameAndIcon">
-                <img id="uniswapIcon" className="icon" src={props.src} alt="exchange icon"></img>
-                {name}
+                <img id={props.name} className="icon" src={props.src} alt="exchange icon"></img>
+                <div className="name">
+                    {name}
+                </div>
             </div>
             <div id="volume2" className="volume">
             24hr volume

@@ -11,7 +11,7 @@ export default function Home() {
             let name = window.scrollY < 10 ? "largeHeader" : "smallHeader";
             setHeader(name);
         });
-    },[]);
+    }, []);
 
 
     return (
@@ -42,7 +42,7 @@ export default function Home() {
                 <div className="exchanges">
                     {
                         exchanges.exchanges.map(exchange => (
-                            <ExchangeElement 
+                            <ExchangeElement
                                 name={exchange.name}
                                 src={exchange.logo}
                             />
