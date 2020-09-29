@@ -7,6 +7,7 @@ export default function Home() {
     const [header, setHeader] = useState("largeHeader");
 
     useEffect(() => {
+        document.getElementById("container").setAttribute("style", "display:none");
         document.addEventListener("scroll", () => {
             let name = window.scrollY < 10 ? "largeHeader" : "smallHeader";
             setHeader(name);

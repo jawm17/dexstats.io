@@ -17,7 +17,6 @@
     height: 120px;
     display: flex;
     align-items: center;
-    background-color: red;
 }
 
 .nameNIcon {
@@ -69,14 +68,38 @@
     margin-right: 15px;
 }
 
-#myChart {
-    position: fixed;
-    z-index: 5;
-}
+/* Chart ------------------------------------------------------------ */
 
-.container {
+#container {
     position: fixed;
     top: 120px;
-    margin-left: 5%;
-    width: 200px;
+    margin-left: 18%;
+    width: 600px;
+    display: block;
+}
+
+/* Chart ------------------------------------------------------------ */
+
+.volumeLabel {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+.liquidityLabel {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.amount {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.exchangeTitle {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 10px;
 }

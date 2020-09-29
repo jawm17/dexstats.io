@@ -70,13 +70,15 @@ export default function ExchangePage(props) {
                     <div className="exchangePageHeader">
                         <div className="nameNIcon">
                             <img id={name + "Page"} className="mainIcon" src={src} alt="icon"></img>
-                            {name}
+                            <div className="exchangeTitle">
+                                {name}
+                            </div>
                         </div>
-                        <div id="volume1" className="volume">
+                        <div className="volumeLabel">
                             24hr Volume
                             <p className="amount">$332,000,000</p>
                         </div>
-                        <div id="liquidity1" className="liquidity">
+                        <div className="liquidityLabel">
                             Total Liquidity
                             <p className="amount">$1.92 B</p>
                         </div>
