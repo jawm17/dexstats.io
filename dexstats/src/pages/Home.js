@@ -41,7 +41,7 @@ export default function Home() {
                 </div>
                 <div className="exchanges">
                     {
-                        exchanges.exchanges.map(exchange => (
+                        exchanges.map(exchange => (
                             <ExchangeElement
                                 name={exchange.name}
                                 src={exchange.logo}

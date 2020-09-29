@@ -1,5 +1,4 @@
-{
-    "exchanges": [
+[
         {
             "name": "Uniswap",
             "logo": "https://research.binance.com/static/images/projects/uniswap/logo.png"
@@ -24,5 +23,4 @@
             "name": "Tokenlon",
             "logo": "https://assets.coingecko.com/markets/images/516/large/Tokenlon_1_4x.png?1583380072"
         }
-    ]
-}
+]

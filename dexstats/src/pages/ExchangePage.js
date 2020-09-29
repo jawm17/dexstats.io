@@ -1,15 +1,66 @@
 import React, { useEffect, useState } from 'react';
+import exchanges from "../exchanges.json";
 import "./exchangePageStyle.css";
 
 export default function ExchangePage(props) {
     const [name, setName] = useState("");
+    const [src, setSrc] = useState("");
 
     useEffect(() => {
-        // if url has a user parameter
-        if (props.match.params.exchange) {
-            setName(props.match.params.exchange);
+        switch (props.match.params.exchange) {
+            case "uniswap":
+                initUniswap();
+                break;
+            case "kyber":
+                initKyber();
+                break;
+            case "zrx":
+                initZrx();
+                break;
+            case "bancor":
+                initBancor();
+                break;
+            case "curve":
+                initCurve();
+                break;
+            case "tokenlon":
+                initTokenlon();
+                break;
+            default:
+                window.location.href = "/";
         }
     });
+
+    function initUniswap() {
+        setName("Uniswap");
+        setSrc(exchanges[0].logo);
+    }
+
+    function initKyber() {
+        setName("kyber");
+        setSrc(exchanges[1].logo);
+    }
+
+    function initZrx() {
+        setName("0x Protocol");
+        setSrc(exchanges[2].logo);
+    }
+
+    function initBancor() {
+        setName("Bancor");
+        setSrc(exchanges[3].logo);
+    }
+
+    function initCurve() {
+        setName("Curve Finance");
+        setSrc(exchanges[4].logo);
+    }
+
+    function initTokenlon() {
+        setName("Tokenlon");
+        setSrc(exchanges[5].logo);
+    }
+
 
     return (
         <div>
@@ -17,7 +68,7 @@ export default function ExchangePage(props) {
                 <div className="header">
                     <div className="headerCenter">
                         <div className="nameAndIcon">
-                            <img className="mainIcon" src="https://research.binance.com/static/images/projects/uniswap/logo.png" alt="icon"></img>
+                            <img id={name} className="mainIcon" src={src} alt="icon"></img>
                             {name}
                         </div>
                         <div id="volume1" className="volume">
