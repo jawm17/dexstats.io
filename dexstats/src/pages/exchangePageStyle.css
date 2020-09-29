@@ -1,5 +1,70 @@
+.exchangePage {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center
+}
 
+.center {
+    max-width: 900px;
+    width: 90vw;
+    background-color: aqua;
+}
+
+.exchangePageHeader {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+.nameNIcon {
+    display: flex;
+    align-items: center;
+    max-width: 620px;
+    width: calc(90vw); 
+}
 
 .mainIcon {
     width: 60px;
+    border-radius: 50%;
+}
+
+#UniswapPage {
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 5px;
+    transition: all 0.1s ease-in-out;
+}
+
+#KyberPage {
+    width: 45px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+#zrx {
+    width: 45px;
+    margin-left: 28px;
+    margin-right: 15px;
+}
+
+#Bancor {
+    width: 50px;
+    margin-left: 26px;
+    margin-right: 15px;
+}
+
+#Curve {
+    width: 50px;
+    margin-left: 26px;
+    margin-right: 15px;
+}
+
+#Tokenlon {
+    width: 50px;
+    margin-left: 26px;
+    margin-right: 15px;
 }

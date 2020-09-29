@@ -37,7 +37,7 @@ export default function ExchangePage(props) {
     }
 
     function initKyber() {
-        setName("kyber");
+        setName("Kyber");
         setSrc(exchanges[1].logo);
     }
 
@@ -64,11 +64,11 @@ export default function ExchangePage(props) {
 
     return (
         <div>
-            <div className="homeOuter">
-                <div className="header">
-                    <div className="headerCenter">
-                        <div className="nameAndIcon">
-                            <img id={name} className="mainIcon" src={src} alt="icon"></img>
+            <div className="exchangePage">
+                <div className="center">
+                    <div className="exchangePageHeader">
+                        <div className="nameNIcon">
+                            <img id={name + "Page"} className="mainIcon" src={src} alt="icon"></img>
                             {name}
                         </div>
                         <div id="volume1" className="volume">
@@ -83,5 +83,6 @@ export default function ExchangePage(props) {
                 </div>
             </div>
         </div>
+
     );
 }
