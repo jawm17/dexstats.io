@@ -9,7 +9,7 @@
 .center {
     max-width: 900px;
     width: 90vw;
-    background-color: aqua;
+    background-color: transparent;
 }
 
 .exchangePageHeader {
@@ -67,4 +67,16 @@
     width: 50px;
     margin-left: 26px;
     margin-right: 15px;
+}
+
+#myChart {
+    position: fixed;
+    z-index: 5;
+}
+
+.container {
+    position: fixed;
+    top: 120px;
+    margin-left: 5%;
+    width: 200px;
 }

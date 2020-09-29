@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import MainChart from "../components/MainChart";
 import exchanges from "../exchanges.json";
 import "./exchangePageStyle.css";
 
@@ -82,6 +83,7 @@ export default function ExchangePage(props) {
                     </div>
                 </div>
             </div>
+            <MainChart />
         </div>
 
     );
