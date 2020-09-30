@@ -8,6 +8,7 @@ export default function ExchangePage(props) {
     const [src, setSrc] = useState("");
 
     useEffect(() => {
+        document.getElementById("container").setAttribute("style", "display:block");
         switch (props.match.params.exchange) {
             case "uniswap":
                 initUniswap();

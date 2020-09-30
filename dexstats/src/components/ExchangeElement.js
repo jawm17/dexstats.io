@@ -20,7 +20,7 @@ export default function ExchangeElement(props) {
     }
 
     return (
-        <div id="one" className="exchange" onClick={() => (window.location.href = "/exchange/" + props.name.toLowerCase())}>
+        <div id="one" className="exchange" onClick={() => (window.location.href = "/#exchange/" + props.name.toLowerCase())}>
             <div className="nameAndIcon">
                 <img id={props.name} className="icon" src={props.src} alt="exchange icon"></img>
                 <div className="name">
