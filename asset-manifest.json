@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dexstats.io/static/css/main.0b2b197a.chunk.css",
-    "main.js": "/dexstats.io/static/js/main.88a161e5.chunk.js",
-    "main.js.map": "/dexstats.io/static/js/main.88a161e5.chunk.js.map",
+    "main.js": "/dexstats.io/static/js/main.d4a43867.chunk.js",
+    "main.js.map": "/dexstats.io/static/js/main.d4a43867.chunk.js.map",
     "runtime-main.js": "/dexstats.io/static/js/runtime-main.5578ba53.js",
     "runtime-main.js.map": "/dexstats.io/static/js/runtime-main.5578ba53.js.map",
     "static/js/2.384f48b7.chunk.js": "/dexstats.io/static/js/2.384f48b7.chunk.js",
     "static/js/2.384f48b7.chunk.js.map": "/dexstats.io/static/js/2.384f48b7.chunk.js.map",
     "index.html": "/dexstats.io/index.html",
-    "precache-manifest.1dd66b389f933b078f7405bbe82556ee.js": "/dexstats.io/precache-manifest.1dd66b389f933b078f7405bbe82556ee.js",
+    "precache-manifest.c8a99c329bdfce72a050e9b8afa4ba3b.js": "/dexstats.io/precache-manifest.c8a99c329bdfce72a050e9b8afa4ba3b.js",
     "service-worker.js": "/dexstats.io/service-worker.js",
     "static/css/main.0b2b197a.chunk.css.map": "/dexstats.io/static/css/main.0b2b197a.chunk.css.map",
     "static/js/2.384f48b7.chunk.js.LICENSE.txt": "/dexstats.io/static/js/2.384f48b7.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5578ba53.js",
     "static/js/2.384f48b7.chunk.js",
     "static/css/main.0b2b197a.chunk.css",
-    "static/js/main.88a161e5.chunk.js"
+    "static/js/main.d4a43867.chunk.js"
   ]
 }
