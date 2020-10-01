@@ -7,11 +7,11 @@ import About from "./pages/About";
 
 function App() {
   return (
-    <Router history={history} basename={"/dexstats.io/dexstats"}>
+    <Router history={history}>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path={"/exchange/:exchange"} component={ExchangePage} />
-        <Route exact path={"/about"} component={About} />
+        <Route path="/exchange/:exchange" component={ExchangePage} />
+        <Route exact path="/about" component={About} />
         {/* <Route path="/">
           <NoMatchPage />
         </Route> */}
