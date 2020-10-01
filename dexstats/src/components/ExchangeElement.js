@@ -1,5 +1,4 @@
-import { set } from "mongoose";
-import React, { useEffect, useState } from "react";
+import React, { Link, useEffect, useState } from "react";
 import "./exchangeElementStyle.css";
 
 export default function ExchangeElement(props) {
@@ -21,6 +20,7 @@ export default function ExchangeElement(props) {
 
     return (
         <div id="one" className="exchange" onClick={() => (window.location.href = "/exchange/" + props.name.toLowerCase())}>
+            <Link to="/about">fuck </Link>
             <div className="nameAndIcon">
                 <img id={props.name} className="icon" src={props.src} alt="exchange icon"></img>
                 <div className="name">
