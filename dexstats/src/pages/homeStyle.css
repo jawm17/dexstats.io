@@ -61,6 +61,16 @@
     font-weight: 700;
 }
 
+@media only screen and (max-width: 900px) {
+    .largeHeader {
+        width: 90vw;
+    }
+    .smallHeader {
+        margin-left: 90vw;
+    }
+
+}
+
 .title:hover {
     cursor: default;
 }
