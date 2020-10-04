@@ -4,6 +4,7 @@
 
 .exchange {
     width: 900px;
+    max-width: 90vw;
     height: 120px;
     margin-bottom: 40px;
     background-color: #FFFFFF;
