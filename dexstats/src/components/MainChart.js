@@ -65,24 +65,3 @@ export default function MainChart() {
 
     return null;
 }
-export default function bread() {
-
-}
-export default function tomato() {
-
-}
-export default function basil() {
-
-}
-export default function turkey() {
-
-}
-export default function pepperJack() {
-
-}
-export default function mustard() {
-
-}
-export default function bread() {
-
-}
