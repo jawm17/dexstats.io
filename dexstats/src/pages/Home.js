@@ -50,13 +50,13 @@ export default function Home() {
                         ))
                     }
                     <div className="footer">
-                        <a id="terms" className="footerEl" onClick={() => (window.location.href = "/about")}>
+                        <a id="about" className="footerEl" onClick={() => (window.location.href = "/about")}>
                             about
                         </a>
                         <a id="copyright" className="footerEl" onClick={() => (window.location.href = "/copyright")}>
                             copyright
                         </a>
-                        <a id="api" className="footerEl" onClick={() => (window.location.href = "/data")}>
+                        <a id="data" className="footerEl" onClick={() => (window.location.href = "/data")}>
                             data
                         </a>
                     </div>

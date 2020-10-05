@@ -62,13 +62,12 @@
 }
 
 @media only screen and (max-width: 900px) {
-    .largeHeader {
-        width: 90vw;
+    .title {
+        margin-left: 40px;
     }
-    .smallHeader {
-        margin-left: 90vw;
+    .slogan {
+        margin-left: 40px;
     }
-
 }
 
 .title:hover {
@@ -130,13 +129,13 @@
     font-size: 20px;
 }
 
-
+ 
 /* FOOTER ------------------------------------------------------------------------ */
 
 .footer {
     margin-top: 60px;
-    margin-left: 22px;
-    width: 850px;
+    max-width: 900px;
+    width: 90vw;
     display: flex;
     justify-content: space-between;
     font-family: 'Kumbh Sans', sans-serif;
@@ -149,3 +148,10 @@
     color: blue;
 }
 
+#about {
+    margin-left: 10px;
+}
+
+#data {
+    margin-right: 10px;
+}
