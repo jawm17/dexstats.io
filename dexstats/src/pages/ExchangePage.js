@@ -6,9 +6,11 @@ import "./exchangePageStyle.css";
 export default function ExchangePage(props) {
     const [name, setName] = useState("");
     const [src, setSrc] = useState("");
+    const [platform, setPlatform] = useState();
 
     useEffect(() => {
         document.getElementById("container").setAttribute("style", "display:block");
+        setPlatform(props.match.params.exchange);
         switch (props.match.params.exchange) {
             case "uniswap":
                 initUniswap();
@@ -86,7 +88,7 @@ export default function ExchangePage(props) {
                     </div>
                 </div>
             </div>
-            <MainChart />
+            <MainChart platform={platform}/>
         </div>
 
     );

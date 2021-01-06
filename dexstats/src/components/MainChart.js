@@ -2,11 +2,18 @@ import React, { useEffect, useState } from 'react';
 import { Chart } from 'chart.js';
 import 'chartjs-plugin-zoom';
 
-export default function MainChart() {
+export default function MainChart(props) {
+    let realData;
 
     useEffect(() => {
         initCharts();
     });
+
+    function getData(platform) {
+        if(platform === "uniswap") {
+            return [120, 190, 300, 340, 280, 410];
+        }
+    }
 
 
     function initCharts() {
@@ -14,6 +21,7 @@ export default function MainChart() {
         let value_list = [1000, 2000, 3000, 2500, 3000, 5000]
         let start_date = new Date(date_list[0]);
         let end_date = new Date(date_list[date_list.length - 1]);
+        realData = getData(props.platform);
 
         let range_min = new Date(date_list[0]);  //start date
         range_min.setDate(range_min.getDate() - 10);
@@ -29,7 +37,7 @@ export default function MainChart() {
                 labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
                 datasets: [{
                     label: 'Volume',
-                    data: [120, 190, 300, 340, 280, 410],
+                    data: realData,
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
