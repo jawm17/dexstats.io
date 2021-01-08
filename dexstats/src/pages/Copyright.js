@@ -8,7 +8,7 @@ export default function Copyright() {
             <h1>Copyright</h1>
             <br></br>
             <p>
-                Copyright dexstats.io 2020
+                Copyright dexstats.io 2021
             </p>
         </div>
     );
