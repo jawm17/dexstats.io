@@ -12,7 +12,7 @@ app.use(express.json());
 // Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
   // Set static folder
-  app.use(express.static("client/build"));
+  app.use(express.static("dexstats/build"));
 }
 
 // Add routes, both API and view
